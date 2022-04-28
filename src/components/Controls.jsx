@@ -1,8 +1,8 @@
 import React from "react";
-import { ReactComponent as Play } from "./assets/play.svg";
-import { ReactComponent as Next } from "./assets/next.svg";
-import { ReactComponent as Prev } from "./assets/prev.svg";
-import { ReactComponent as Pause } from "./assets/pause.svg";
+import { ReactComponent as Play } from "../assets/play.svg";
+import { ReactComponent as Next } from "../assets/next.svg";
+import { ReactComponent as Prev } from "../assets/prev.svg";
+import { ReactComponent as Pause } from "../assets/pause.svg";
 import './Controls.css'
 
 
@@ -14,7 +14,7 @@ function Controls(props){
         <button type="button"
                 className="prev"
                 aria-label="Previous"
-                onClick={() => props.toPrevTrack}>
+                onClick={() => props.toPrevTrack()}>
             <Prev/>
         </button>
 
@@ -41,7 +41,7 @@ function Controls(props){
             type="button"
             className="next"
             aria-label="Next"
-            onClick={() => props.toNextTrack}
+            onClick={() => props.toNextTrack()}
         >
             <Next />
         </button>

@@ -1,0 +1,44 @@
+.TrackList{
+    display: block;
+    margin-left: 29%;
+    margin-top: 10px;
+    width: 600px;
+    text-align: left;
+}
+
+.track{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: azure;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.btn:hover { background: rgb(53, 167, 110); }
+.btn:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.bans {
+    margin-right: 10px;
+}
+
+
+
