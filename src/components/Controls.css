@@ -1,0 +1,22 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width:  75%;
+  margin: 0 auto 15px;
+}
+
+.controls .prev svg,
+.controls .next svg {
+  width: 35px;
+  height: 35px;
+}
+
+.controls .play svg,
+.controls .pause svg {
+  height: 40px;
+  width: 40px;
+}
+
+.controls path {
+  fill: var(--white);
+}
